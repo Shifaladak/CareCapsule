@@ -1,0 +1,90 @@
+#myCarousel .carousel-item{
+  height: 420px;              /* adjust: 350–500px */
+}
+
+/* ✅ SVG background ko poora fill karwao */
+#myCarousel .carousel-item > svg{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#myCarousel{
+  margin-top: 0 !important;
+}
+
+.col-lg-4
+{
+  padding:10px
+}
+.h1cap{
+  
+  position: static !important;           /* remove absolute positioning */
+  padding: 0 !important;
+  text-align: left !important; 
+  color: black;          
+}
+.h1capt{
+  position: static !important;           /* remove absolute positioning */
+  padding: 0 !important;
+  text-align: left !important; 
+  color: black; 
+
+}
+.h2cap{
+  position: static !important;           /* remove absolute positioning */
+  padding: 0 !important;
+  text-align: left !important; 
+  color: black; 
+  top: 35%;
+
+}
+
+    
+.img1{
+  background-color: #F0F7FF;
+  background-image: url(./Caro1.png);
+  background-size: 30%;
+  background-position: 80% center;
+  background-repeat: no-repeat;
+
+}
+.caption-left{
+  position: absolute !important;
+  left: 8% !important;      /* 👈 left side le aayega */
+  right: auto !important;
+  text-align: left !important;
+  max-width: 520px;         /* text readable rahe */
+}
+
+  
+.img2{
+  background-image: url(./Carousel2.png);
+  background-size: 40%;
+  background-position: 68% center;
+  background-repeat: no-repeat;
+  background-color: #F2EEFF;
+  
+}
+.h3cap{
+  position: static !important;           /* remove absolute positioning */
+  padding: 0 !important;
+  text-align: right !important; 
+  color: black; 
+  top: 35%;
+}
+.caption-center {
+  left: 50% !important;
+  text-align: left !important;
+  max-width: 600px;
+}
+
+.img3{
+  background-color: mistyrose;
+  background-image: url(./Caro3.png);
+  background-size: 30%;
+  background-position: 68% left;
+  background-repeat: no-repeat;
+  
+
+}
