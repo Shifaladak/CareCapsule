@@ -5,102 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="./style.css">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  <style>
-    /* ✅ Fix: carousel ke upar wala white gap remove */
-#myCarousel .carousel-item{
-  height: 420px;              /* adjust: 350–500px */
-}
-
-/* ✅ SVG background ko poora fill karwao */
-#myCarousel .carousel-item > svg{
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-#myCarousel{
-  margin-top: 0 !important;
-}
-
-.col-lg-4
-{
-  padding:10px
-}
-.h1cap{
   
-  position: static !important;           /* remove absolute positioning */
-  padding: 0 !important;
-  text-align: left !important; 
-  color: black;          
-}
-.h1capt{
-  position: static !important;           /* remove absolute positioning */
-  padding: 0 !important;
-  text-align: left !important; 
-  color: black; 
-
-}
-.h2cap{
-  position: static !important;           /* remove absolute positioning */
-  padding: 0 !important;
-  text-align: left !important; 
-  color: black; 
-  top: 35%;
-
-}
-
-    
-.img1{
-  background-color: #F0F7FF;
-  background-image: url(./Caro1.png);
-  background-size: 30%;
-  background-position: 80% center;
-  background-repeat: no-repeat;
-
-}
-.caption-left{
-  position: absolute !important;
-  left: 8% !important;      /* 👈 left side le aayega */
-  right: auto !important;
-  text-align: left !important;
-  max-width: 520px;         /* text readable rahe */
-}
-
-  
-.img2{
-  background-image: url(./Carousel2.png);
-  background-size: 40%;
-  background-position: 68% center;
-  background-repeat: no-repeat;
-  background-color: #F2EEFF;
-  
-}
-.h3cap{
-  position: static !important;           /* remove absolute positioning */
-  padding: 0 !important;
-  text-align: right !important; 
-  color: black; 
-  top: 35%;
-}
-.caption-center {
-  left: 50% !important;
-  text-align: left !important;
-  max-width: 600px;
-}
-
-.img3{
-  background-color: mistyrose;
-  background-image: url(./Caro3.png);
-  background-size: 30%;
-  background-position: 68% left;
-  background-repeat: no-repeat;
-  
-
-}
-
-    
+  <style> 
   </style>
 </head>
 
@@ -141,8 +51,8 @@
         
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Post code" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Check</button>
+        <input class="form-control me-2" type="search" placeholder="Your question" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
   </div>
@@ -171,11 +81,11 @@
            <div class="container">
              <div class="carousel-caption  text-start"> <h1 class="h1cap"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Your Health, Our Priority.</font></font></h1> <p class="opacity-75"><font dir="auto" style="vertical-align: inherit;"><font class="h1capt" dir="auto" style="vertical-align: inherit;"> Trusted prescriptions, transparent pricing, and pharmacist care you can rely on — every single day.</font> </font></p> <p><a class="btn btn-lg btn-outline-dark" href="#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Refill Prescription.</font></font></a></p> </div> </div> </div> <div class="carousel-item img2 active"> <svg aria-hidden="true" class="bd-placeholder-img " height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="transparent"></rect></svg> 
               <div class="container"> 
-                <div class="carousel-caption caption-left "> <h1><font dir="auto" style="vertical-align: inherit;"><font dir="auto" class="h2cap" style="vertical-align: inherit;">CareCapsule — we read the fine print so you don’t.</font></font></h1> <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" class="h2cap" style="vertical-align: inherit;">Ask us anything. Seriously.</font></font></p> <p><a class="btn btn-lg btn-outline-dark" href="#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">learn more</font></font></a></p>
+                <div class="carousel-caption caption-left "> <h1><font dir="auto" style="vertical-align: inherit;"><font dir="auto" class="h2cap" style="vertical-align: inherit;">CareCapsule — we read the fine print so you don’t.</font></font></h1> <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" class="h2cap" style="vertical-align: inherit;">Ask us anything. Seriously.</font></font></p> <p><a class="btn btn-lg btn-outline-dark" href="#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Learn More</font></font></a></p>
                  </div>
                  </div> 
                 </div> 
-                <div class="carousel-item  img3"> <svg aria-hidden="true" class="bd-placeholder-img " height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <div class="container"> <div class="carousel-caption text-end"> <h1><font dir="auto" class="h3cap" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Your Apothecary, Reimagined.</font></font></h1> <p><font dir="auto" style="vertical-align: inherit;"><font class="h3cap" dir="auto" style="vertical-align: inherit;">Because you’re a person, not an Rx number.</font></font></p> <p><a class="btn btn-lg btn-outline-light" href="#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Our Approach</font></font></a></p> 
+                <div class="carousel-item  img3"> <svg aria-hidden="true" class="bd-placeholder-img " height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <div class="container"> <div class="carousel-caption text-end"> <h1><font dir="auto" class="h3cap" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit ; color:white;"> Your Apothecary, Reimagined. </font></font></h1> <p><font dir="auto" style="vertical-align: inherit;"><font class="h3cap" dir="auto" style="vertical-align: inherit; color:white;">Because you’re a person, not an Rx number.</font></font></p> <p><a class="btn btn-lg btn-outline-light" href="#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Our Approach</font></font></a></p> 
                 </div> 
               </div> 
             </div> 
@@ -223,7 +133,7 @@
                   <!-- /END THE FEATURETTES --> 
                   </div>
                   <!-- /.container --> <!-- FOOTER --> 
-                   <footer class="container"> <p class="float-end"><a href="#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Back to top</font></font></a></p> <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">© 2017–2025 Company, Inc. · </font></font><a href="#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Privacy Policy</font></font></a><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;"> · </font></font><a href="#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Terms of Use</font></font></a></p> </footer> </main>
+                   <footer class="container"> <p class="float-end"><a href="#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Back to top</font></font></a></p> <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">© CareCapsule Inc. · </font></font><a href="#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Privacy Policy</font></font></a><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;"> · </font></font><a href="#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Terms of Use</font></font></a></p> </footer> </main>
 
 
 </div>
