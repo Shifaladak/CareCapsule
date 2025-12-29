@@ -99,7 +99,32 @@
     @media (max-width: 768px) {
 
     background-size: 40%;
-    background-position: 4% 60%; /* 👈 magic */}
+    background-position: 0.5% 118%; /* 👈 magic */}
   
 
+}
+
+.features-section{
+  background-color: #F5F9FF;
+
+}
+
+.features-section .container {
+  position: relative;
+  z-index: 2;
+}
+.heading-green{
+  color: midnightblue;
+}
+.img10{
+background-image: url(./—Pngtree—line\ medicine\ patterns\ set_6616304.png);
+size: 0.00999999px;
+
+
+}
+.color{
+  background-color: #F5F9FF;
+}
+.img10 > p{
+  font-weight: bolder;
 }
